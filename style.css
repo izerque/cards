@@ -1,0 +1,223 @@
+body{
+    background-color: rgba(250, 249, 244, 0.788);
+    font-size: 15px;
+}
+
+
+/* mobile design */
+@media only screen and (max-width:600px) {
+       .main_container{
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+           justify-content:center ;
+           padding: 20px;
+           margin-left: auto;
+           margin-right: auto;
+       } 
+       .header_container{
+           padding: 10px;
+       }
+       .top_header{
+           width: 100%;
+           margin-top:0px;
+           margin-bottom:10px;
+           font-weight: 100;
+           font-size:35px;
+           color: rgba(0, 0, 0, 0.651);
+
+        
+       }
+       .bold_header{
+        margin-top:0px;
+           padding-top: 0px;
+           font-size:35px;
+       }
+       .header_pagraph{
+           font-size: 25px;
+           color: rgba(0, 0, 0, 0.651);
+          /* margin-top: 5px; */
+       }
+       .card_container{
+        margin-left: auto;
+        padding-top: 0px;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        justify-content:center;
+        margin-top: 50px;
+       }
+       .card{
+        background-color: white;
+        border-radius: 10px;
+        width:85%;
+        height:230px;
+        margin-left: auto;
+        margin-right: auto;        
+        padding-top:10px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-top: 4px solid cyan;
+        box-shadow:  1px 1px  20px rgba(0, 0, 0, 0.342);
+       }
+       .card_head{
+           margin-top:10px;
+           margin-bottom: 10px;
+           font-size: 23px;
+           color: rgba(0, 0, 0, 0.801);
+           margin-left: 20px;
+
+
+       }
+       .card_description{
+       margin-top: 0px;
+       margin-bottom: 10px;
+       font-size: 20px;
+       color: rgba(0, 0, 0, 0.651);
+       margin-left: 20px;
+       }
+       img{
+       width:20%;
+       height: auto;
+       margin-top:20px;
+       position: relative;
+       left:70%;
+
+       }
+       #supervisor{
+        border-top: 4px solid hsl(180, 62%, 55%);
+       }
+       #team{
+           border-top: 4px solid hsl(0, 78%, 62%) ;
+       }
+      
+       #karma{
+        border-top: 4px solid hsl(34, 97%, 64%) ;
+       }
+       #calc{
+           border-top:4px solid hsl(212, 86%, 64%) ;
+       }
+    }
+
+
+    /* tab design */
+    @media only screen and (min-width: 600px) {
+        body{
+            height: 100vh;
+        }
+        .main_container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content:center ;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        } 
+        .header_container{
+            padding: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .top_header{
+            width: 100%;
+            margin-top:0px;
+            margin-bottom:10px;
+            font-weight: 100;
+            font-size:35px;
+            color: rgba(0, 0, 0, 0.651);
+ 
+         
+        }
+        .bold_header{
+         margin-top:0px;
+            padding-top: 0px;
+            font-size:35px;
+        }
+        .header_pagraph{
+            font-size:20px;
+            color: rgba(0, 0, 0, 0.651);
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+           /* margin-top: 5px; */
+        }
+        /*  card design */
+        .card_container{
+            margin-left: auto;
+            padding-top: 0px;
+            margin-right: auto;
+            display:grid;
+            grid-template-columns: 33%  33% 33%;
+            text-align:start;
+            justify-content:center;
+            margin-top: 50px;
+           }
+           .mid_section{
+               display: flex;
+               flex-direction: column;
+           }
+           .mid{
+               position: relative;
+               top:25%;
+           }
+           .card{
+            background-color: white;
+            border-radius: 10px;
+            width:85%;
+            height:230px;
+            margin-left: auto;
+            margin-right: auto;        
+            padding-top:10px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            
+            box-shadow:  1px 1px  20px rgba(0, 0, 0, 0.342);
+           }
+           .card_head{
+               margin-top:10px;
+               margin-bottom: 10px;
+               font-size: 23px;
+               color: rgba(0, 0, 0, 0.801);
+               margin-left: 20px;
+
+    
+           }
+           .card_description{
+            margin-left: 20px;
+           margin-top: 0px;
+           margin-bottom: 10px;
+           font-size: 20px;
+           color: rgba(0, 0, 0, 0.651);
+           }
+           img{
+           width:20%;
+           height: auto;
+           margin-top:20px;
+           position: relative;
+           left:70%;
+    
+           }
+           #supervisor{
+            border-top: 4px solid hsl(180, 62%, 55%);
+           }
+           #team{
+               border-top: 4px solid hsl(0, 78%, 62%) ;
+           }
+          
+           #karma{
+            border-top: 4px solid hsl(34, 97%, 64%) ;
+           }
+           #calc{
+               border-top:4px solid hsl(212, 86%, 64%) ;
+           }
+
+
+
+
+    }
