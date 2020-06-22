@@ -79,7 +79,7 @@ body{
        margin-left: 20px;
        }
        img{
-       width:10%;
+       width:20%;
        height: auto;
        margin-top:20px;
        position: relative;
@@ -109,6 +109,7 @@ body{
         }
         .main_container{
             display: flex;
+            max-width: 1500px;
             flex-direction: column;
             text-align: center;
             justify-content:center ;
@@ -148,17 +149,22 @@ body{
         }
         /*  card design */
         .card_container{
+
             margin-left: auto;
             padding-top: 0px;
             margin-right: auto;
             display:grid;
             grid-template-columns: 33%  33% 33%;
             text-align:start;
-            justify-content:center;
+            max-width: 1000px;
+            flex-wrap: wrap;
+            /* justify-content:center; */
             margin-top: 50px;
-        }
+           }
            .mid_section{
+
                display: flex;
+               flex-wrap: wrap;
                flex-direction: column;
            }
            .mid{
@@ -175,7 +181,7 @@ body{
             padding-top:10px;
             padding: 10px;
             margin-top: 20px;
-            /* margin-bottom: 10px; */
+            margin-bottom: 10px;
             
             box-shadow:  1px 1px  20px rgba(0, 0, 0, 0.342);
            }
@@ -201,7 +207,6 @@ body{
            margin-top:20px;
            position: relative;
            left:70%;
-           margin-bottom: 0px;
     
            }
            #supervisor{
